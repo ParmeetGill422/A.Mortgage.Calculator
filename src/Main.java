@@ -19,7 +19,6 @@ public class Main {
         double monthlyPayment = principal * (i * Math.pow(1 + i, n)) / (Math.pow(1 + i, n) - 1);
         double totalInterest = (monthlyPayment * n) - principal;
 
-        System.out.printf("Using a fixed interest rate of 7.625%%\n");
         System.out.printf("Monthly Payment: $%.2f\n", monthlyPayment);
         System.out.printf("Total Interest Paid: $%.2f\n", totalInterest);
 
