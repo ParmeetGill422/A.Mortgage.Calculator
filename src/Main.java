@@ -4,7 +4,8 @@ public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        double annualRate = 7.625 / 100;
+        System.out.println("Enter annual interest rate (e.g., 7.625): ");
+        double annualRate = scanner.nextDouble() / 100;
 
         System.out.print("Enter loan principal ($): ");
         double principal = scanner.nextDouble();
