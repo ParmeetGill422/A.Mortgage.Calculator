@@ -26,7 +26,7 @@ public class Main {
 
         if (totalInterest > principal) {
             System.out.printf("That's a " + currency.format(totalInterest) +"bonus gift to your mortgage company for the privilege of being in debt.\n", totalInterest);
-            System.out.println("Congratulations, you're their favorite customer.\nThat’s like paying for a second house... except you don’t get one.");
+            System.out.println("Congratulations, you're their favorite customer.\n That’s like paying for a second house... except you don’t get one.");
             System.out.println("I recommend downgrading Or should I just draft your letter to the bank that says 'WHY'?");
         }
     }
